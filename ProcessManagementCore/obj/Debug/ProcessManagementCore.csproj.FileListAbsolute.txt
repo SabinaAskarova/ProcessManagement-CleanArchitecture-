@@ -1,0 +1,6 @@
+D:\ProcessManagement\ProcessManagementCore\bin\Debug\ProcessManagementCore.dll
+D:\ProcessManagement\ProcessManagementCore\bin\Debug\ProcessManagementCore.pdb
+D:\ProcessManagement\ProcessManagementCore\obj\Debug\ProcessManagementCore.csproj.AssemblyReference.cache
+D:\ProcessManagement\ProcessManagementCore\obj\Debug\ProcessManagementCore.csproj.CoreCompileInputs.cache
+D:\ProcessManagement\ProcessManagementCore\obj\Debug\ProcessManagementCore.dll
+D:\ProcessManagement\ProcessManagementCore\obj\Debug\ProcessManagementCore.pdb

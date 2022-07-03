@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "HHdsnkeFTbthFGwMIm+LnOCEJfKzTD0JTD8peUBCif0=",
+  "Source": "ProcessManagementAPI",
+  "BasePath": "_content/ProcessManagementAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

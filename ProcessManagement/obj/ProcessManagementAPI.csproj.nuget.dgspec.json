@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ProcessManagement\\ProcessManagement\\ProcessManagementAPI.csproj": {}
+  },
+  "projects": {
+    "D:\\ProcessManagement\\ProcessManagementApplication\\ProcessManagementApplication.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\ProcessManagement\\ProcessManagementApplication\\ProcessManagementApplication.csproj",
+        "projectName": "ProcessManagementApplication",
+        "projectPath": "D:\\ProcessManagement\\ProcessManagementApplication\\ProcessManagementApplication.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\ProcessManagement\\ProcessManagementCore\\ProcessManagementCore.csproj": {
+                "projectPath": "D:\\ProcessManagement\\ProcessManagementCore\\ProcessManagementCore.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\ProcessManagement\\ProcessManagementCore\\ProcessManagementCore.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\ProcessManagement\\ProcessManagementCore\\ProcessManagementCore.csproj",
+        "projectName": "ProcessManagementCore",
+        "projectPath": "D:\\ProcessManagement\\ProcessManagementCore\\ProcessManagementCore.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\ProcessManagement\\ProcessManagementInfrastucture\\ProcessManagementInfrastucture.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\ProcessManagement\\ProcessManagementInfrastucture\\ProcessManagementInfrastucture.csproj",
+        "projectName": "ProcessManagementInfrastucture",
+        "projectPath": "D:\\ProcessManagement\\ProcessManagementInfrastucture\\ProcessManagementInfrastucture.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "D:\\ProcessManagement\\ProcessManagementApplication\\ProcessManagementApplication.csproj": {
+                "projectPath": "D:\\ProcessManagement\\ProcessManagementApplication\\ProcessManagementApplication.csproj"
+              },
+              "D:\\ProcessManagement\\ProcessManagementCore\\ProcessManagementCore.csproj": {
+                "projectPath": "D:\\ProcessManagement\\ProcessManagementCore\\ProcessManagementCore.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "D:\\ProcessManagement\\ProcessManagement\\ProcessManagementAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ProcessManagement\\ProcessManagement\\ProcessManagementAPI.csproj",
+        "projectName": "ProcessManagementAPI",
+        "projectPath": "D:\\ProcessManagement\\ProcessManagement\\ProcessManagementAPI.csproj",
+        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+        "outputPath": "D:\\ProcessManagement\\ProcessManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\ProcessManagement\\ProcessManagementInfrastucture\\ProcessManagementInfrastucture.csproj": {
+                "projectPath": "D:\\ProcessManagement\\ProcessManagementInfrastucture\\ProcessManagementInfrastucture.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
